@@ -4,6 +4,7 @@ public abstract class TankType : MonoBehaviour
 {
     public int health;              //Store tanks health
     public Vector3 tankLocation;    //Store tanksLocation
+    public int damage;
 
     private int decisionToMoveOrShoot;  // 0 = Move, 1 = Shoot
     private int moveDirectionIndex;     // Randomized movement direction

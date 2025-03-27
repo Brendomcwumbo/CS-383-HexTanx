@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c1f1e7dcf38033044b6b1fdd9e8e3410
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rend: {fileID: 5971121349773992636, guid: 72ca29d6cca473a49bb60cf2fabf75bd, type: 3}
+  - playertank: {fileID: 6702523169278737926, guid: 0a3d5ad884d5df04aa75d2cb516b5448, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

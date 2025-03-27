@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 22fc394dfdfb019418a7f51bb6d4e6dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - level1TankPrefab: {fileID: 6808895572007798491, guid: a2c61bdade7ac504eb439c0bcddbbf46, type: 3}
+  - level2TankPrefab: {fileID: 6808895572007798491, guid: 6ab6a65d8554c6c46bd7e5561bbb503d, type: 3}
+  - level3TankPrefab: {fileID: 6808895572007798491, guid: fda721ab421f4054d98ff0c5cb91110a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

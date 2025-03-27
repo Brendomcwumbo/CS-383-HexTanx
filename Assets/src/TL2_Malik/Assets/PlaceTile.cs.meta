@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 25a41b0e228cc164f8c130e4a19548a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Tile: {fileID: 3187486204259752003, guid: 218c447d144faae4596758fb1a1b7fea, type: 3}
+  - Terrain: {fileID: 3591277320102712311, guid: 72ca29d6cca473a49bb60cf2fabf75bd, type: 3}
+  - cam: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

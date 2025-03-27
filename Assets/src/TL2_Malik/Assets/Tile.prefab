@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8648067282215973883}
   m_Layer: 0
   m_Name: Tile
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   hightlight: {r: 0.9116486, g: 1, b: 0.43867922, a: 1}
   rend: {fileID: 7491683576150760568}
   playerhere: {r: 0.9528302, g: 0, b: 0.80841535, a: 1}
+  playertank: {fileID: 0}
 --- !u!61 &8648067282215973883
 BoxCollider2D:
   m_ObjectHideFlags: 0

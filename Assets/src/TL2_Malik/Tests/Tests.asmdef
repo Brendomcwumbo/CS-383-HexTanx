@@ -1,0 +1,10 @@
+{
+    "name": "TestsTiles",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+
+}

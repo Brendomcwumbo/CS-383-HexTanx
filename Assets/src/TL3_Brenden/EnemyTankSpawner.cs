@@ -19,7 +19,7 @@ public class EnemyTankSpawner : MonoBehaviour
 
         if (placeTileScript != null)
         {
-            Invoke("SpawnEnemyTankWithRandomPosition", 0.1f);
+            //Invoke("SpawnEnemyTankWithRandomPosition", 0.1f);
         }
         else
         {
@@ -27,7 +27,7 @@ public class EnemyTankSpawner : MonoBehaviour
         }
     }
 
-    void SpawnEnemyTankWithRandomPosition()
+    public void SpawnEnemyTankWithRandomPosition()
     {
         if (placeTileScript.Grid == null || placeTileScript.Grid.GetLength(0) == 0)
         {
@@ -59,7 +59,7 @@ public class EnemyTankSpawner : MonoBehaviour
             Debug.LogError("EnemyTankSpawner: No tank prefab returned from TankManager!");
             return;
         }
-        Debug.Log("Spawning an enemy tank at: " + spawnLocation);  //  Confirm method runs
+        //Debug.Log("Spawning an enemy tank at: " + spawnLocation);  //  Confirm method runs
 
         GameObject spawnedTank = Instantiate(tankPrefab, spawnLocation, Quaternion.identity);
         TankType tank = spawnedTank.GetComponent<TankType>();
@@ -67,7 +67,8 @@ public class EnemyTankSpawner : MonoBehaviour
         if (tank != null)
         {
             tank.Initialize();// Call Initialize() since we made it parameterless
-            Debug.Log("Enemy tank initialized successfully!");
+            tank.UpdateTankLocation(spawnLocation);
+            //Debug.Log("Enemy tank initialized successfully!");
         }
         else
         {

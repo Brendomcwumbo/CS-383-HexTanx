@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/TL2_Malik/Assets/Scenes/SampleScene.unity
     guid: 9595543f3b22daa4ebf386469edf8a74
+  - enabled: 1
+    path: Assets/src/TL1_Justin/scenes/GameOver.unity
+    guid: 1a164788a8afcfe43a97280a48d2b1f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
